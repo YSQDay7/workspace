@@ -1,0 +1,102 @@
+[
+  {
+    "question": "西湖有哪些经典景点？",
+    "reference": "断桥残雪、白堤、平湖秋月、孤山、曲院风荷、苏堤春晓、花港观鱼、柳浪闻莺、雷峰夕照、三潭印月等。",
+    "category": "knowledge"
+  },
+  {
+    "question": "西湖环湖区域要门票吗？",
+    "reference": "西湖环湖区域免费开放，无需预约。",
+    "category": "ticket"
+  },
+  {
+    "question": "雷峰塔门票多少钱？",
+    "reference": "雷峰塔门票 40 元，开放时间约 8:00-17:30，17:00 停止入园。",
+    "category": "ticket"
+  },
+  {
+    "question": "灵隐寺门票多少钱？",
+    "reference": "飞来峰景区门票 45 元 + 灵隐寺香花券 30 元，合计 75 元。",
+    "category": "ticket"
+  },
+  {
+    "question": "西溪湿地怎么玩？",
+    "reference": "可乘电瓶船或摇橹船穿行湿地，秋季芦花最有特色，门票约 80 元含电瓶船。",
+    "category": "route"
+  },
+  {
+    "question": "西湖半日游路线怎么安排？",
+    "reference": "从断桥出发，沿白堤、曲院风荷、苏堤至花港观鱼，全程约 5-6 小时，包含具体时间安排。",
+    "category": "route"
+  },
+  {
+    "question": "杭州一日游可以同时去灵隐寺、西湖和河坊街吗？",
+    "reference": "可以，推荐上午灵隐寺，午后西湖游船，傍晚河坊街，路线包含时间安排。",
+    "category": "cross"
+  },
+  {
+    "question": "良渚古城遗址需要预约吗？",
+    "reference": "需要提前实名预约，门票约 60 元，周一闭园。",
+    "category": "ticket"
+  },
+  {
+    "question": "宋城千古情门票多少钱？",
+    "reference": "约 320 元起，含宋城门票与《宋城千古情》演出。",
+    "category": "ticket"
+  },
+  {
+    "question": "运河夜游船怎么坐？",
+    "reference": "从拱宸桥或武林门码头乘坐夜游船，约 60 元，航次以码头公告为准。",
+    "category": "ticket"
+  },
+  {
+    "question": "杭州明天天气怎么样？",
+    "reference": "使用实时天气工具回答，描述天气并给出游览建议。",
+    "category": "weather"
+  },
+  {
+    "question": "下雨天西湖适合游船吗？",
+    "reference": "预报有雨或风大时不建议游船，建议改为环湖绿道或室内景点。",
+    "category": "weather"
+  },
+  {
+    "question": "龙井村和九溪可以一起玩吗？",
+    "reference": "可以，从龙井村步行进入九溪十八涧，沿溪流下山，适合半日徒步。",
+    "category": "cross"
+  },
+  {
+    "question": "杭州带老人孩子怎么安排路线？",
+    "reference": "推荐西溪湿地乘船、西湖环湖、太子湾公园等轻松路线，减少爬山和暴走。",
+    "category": "route"
+  },
+  {
+    "question": "钱塘江灯光秀几点开始？",
+    "reference": "城市阳台灯光秀时间以官方公告为准，最佳观赏时间为夜晚。",
+    "category": "knowledge"
+  },
+  {
+    "question": "六和塔登塔多少钱？",
+    "reference": "公园门票 20 元 + 登塔 10 元，合计 30 元。",
+    "category": "ticket"
+  },
+  {
+    "question": "杭州三日游路线怎么安排？",
+    "reference": "推荐西湖、灵隐寺、西溪湿地、良渚、宋城、运河的组合路线，含时间安排。",
+    "category": "cross"
+  },
+  {
+    "question": "湘湖可以骑行吗？",
+    "reference": "可以，湘湖绿道平整适合骑行和跑步，湖滨区域免费开放。",
+    "category": "knowledge"
+  },
+  {
+    "question": "太子湾公园什么时候看郁金香？",
+    "reference": "春季花季开放，郁金香和樱花最出名，花季需预约入园。",
+    "category": "knowledge"
+  },
+  {
+    "question": "北京故宫怎么去？",
+    "reference": "杭州智游助手只覆盖杭州景区，无法回答其他城市景区。",
+    "category": "reject"
+  }
+]

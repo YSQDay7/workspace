@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+frontend/dist/
+backend/.env
+__pycache__/
+*.pyc
+.DS_Store
+.env.local
+backend/data/.cache/
+.env.production
+*.log
+.idea/
+.vscode/
+backend/scripts/eval_results.json

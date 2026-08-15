@@ -1,0 +1,374 @@
+[
+  {
+    "id": "route_half_day_west_lake",
+    "title": "西湖半日经典环湖线",
+    "summary": "从断桥出发，沿白堤、北山街、苏堤至花港观鱼，适合第一次来西湖的游客。",
+    "default_start": "09:00",
+    "preference": ["半日", "西湖", "环湖", "经典", "第一次"],
+    "stops": [
+      {
+        "name": "断桥残雪",
+        "scenic_area": "west_lake",
+        "offset_minutes": 0,
+        "duration_minutes": 30,
+        "description": "白堤东端的古桥，白蛇传传说发生地，清晨人少适合拍照。",
+        "tips": "免费开放。",
+        "latitude": 30.2591,
+        "longitude": 120.1517
+      },
+      {
+        "name": "白堤·平湖秋月",
+        "scenic_area": "west_lake",
+        "offset_minutes": 40,
+        "duration_minutes": 40,
+        "description": "沿白堤步行至孤山，桃柳夹岸，平湖秋月是经典赏景处。",
+        "tips": "可骑行或步行。",
+        "latitude": 30.2564,
+        "longitude": 120.1459
+      },
+      {
+        "name": "曲院风荷",
+        "scenic_area": "west_lake",
+        "offset_minutes": 100,
+        "duration_minutes": 40,
+        "description": "北山街旁的大片荷塘，夏季荷花盛开，冬季静谧。",
+        "tips": "免费开放。",
+        "latitude": 30.2517,
+        "longitude": 120.1293
+      },
+      {
+        "name": "苏堤春晓",
+        "scenic_area": "west_lake",
+        "offset_minutes": 160,
+        "duration_minutes": 60,
+        "description": "沿苏堤六桥南行，可远眺雷峰塔和湖心岛。",
+        "tips": "全程步行约 1.5 公里。",
+        "latitude": 30.2443,
+        "longitude": 120.1332
+      },
+      {
+        "name": "花港观鱼",
+        "scenic_area": "west_lake",
+        "offset_minutes": 240,
+        "duration_minutes": 40,
+        "description": "苏堤南端的园林，红鱼池和草坪适合休闲收尾。",
+        "tips": "可在此结束或乘公交前往雷峰塔。",
+        "latitude": 30.2319,
+        "longitude": 120.1355
+      }
+    ]
+  },
+  {
+    "id": "route_one_day",
+    "title": "杭州一日全景线（灵隐+西溪+西湖+河坊街+运河）",
+    "summary": "上午灵隐寺祈福，中午西溪湿地乘船，下午西湖游船，傍晚河坊街，晚上运河夜游，一天覆盖杭州多个片区。",
+    "default_start": "08:30",
+    "preference": ["一日", "一日游", "全景", "经典", "全城", "跨景区", "多景区"],
+    "stops": [
+      {
+        "name": "灵隐寺（飞来峰）",
+        "scenic_area": "lingyin",
+        "offset_minutes": 0,
+        "duration_minutes": 120,
+        "description": "清晨进寺避开人流，游览飞来峰造像和寺院。",
+        "tips": "门票 75 元，含飞来峰景区与香花券。",
+        "latitude": 30.2416,
+        "longitude": 120.1016
+      },
+      {
+        "name": "西溪湿地",
+        "scenic_area": "xixi",
+        "offset_minutes": 150,
+        "duration_minutes": 120,
+        "description": "乘电瓶船穿行湿地河道，感受西溪水乡生态。",
+        "tips": "门票 80 元含电瓶船。",
+        "latitude": 30.2704,
+        "longitude": 120.0643
+      },
+      {
+        "name": "西湖断桥·游船",
+        "scenic_area": "west_lake",
+        "offset_minutes": 300,
+        "duration_minutes": 90,
+        "description": "从断桥沿湖步行后乘游船，湖中远眺三潭印月。",
+        "tips": "游船约 55 元，恶劣天气可能停航。",
+        "latitude": 30.2591,
+        "longitude": 120.1517
+      },
+      {
+        "name": "河坊街",
+        "scenic_area": "hefang",
+        "offset_minutes": 420,
+        "duration_minutes": 90,
+        "description": "傍晚逛老字号、小吃和手工艺品街。",
+        "tips": "免费开放，推荐定胜糕和葱包烩。",
+        "latitude": 30.2422,
+        "longitude": 120.1685
+      },
+      {
+        "name": "运河夜游船",
+        "scenic_area": "canal",
+        "offset_minutes": 540,
+        "duration_minutes": 90,
+        "description": "从拱宸桥或武林门码头乘夜游船，看运河灯光。",
+        "tips": "夜游船约 60 元，以码头航次为准。",
+        "latitude": 30.3186,
+        "longitude": 120.1456
+      }
+    ]
+  },
+  {
+    "id": "route_two_day_family",
+    "title": "亲子两日线（良渚+西溪+宋城）",
+    "summary": "良渚古城看历史，西溪湿地坐船，宋城看千古情，适合带孩子家庭分两天游玩。",
+    "default_start": "09:00",
+    "preference": ["亲子", "两日", "两天", "孩子", "家庭"],
+    "stops": [
+      {
+        "name": "良渚古城遗址公园",
+        "scenic_area": "liangzhu",
+        "offset_minutes": 0,
+        "duration_minutes": 180,
+        "description": "乘坐观光车看古城墙和反山王陵，孩子可在考古体验区动手。",
+        "tips": "需预约，门票 60 元。",
+        "latitude": 30.3946,
+        "longitude": 119.987
+      },
+      {
+        "name": "西溪国家湿地公园",
+        "scenic_area": "xixi",
+        "offset_minutes": 210,
+        "duration_minutes": 150,
+        "description": "乘电瓶船穿行湿地河道，秋季芦花和火柿最有特色。",
+        "tips": "门票 80 元含电瓶船。",
+        "latitude": 30.2704,
+        "longitude": 120.0643
+      },
+      {
+        "name": "宋城·千古情",
+        "scenic_area": "songcheng",
+        "offset_minutes": 400,
+        "duration_minutes": 240,
+        "description": "第二天下午入园，逛仿宋街巷后观看《宋城千古情》夜场。",
+        "tips": "门票 320 元起，需确认场次。",
+        "latitude": 30.1517,
+        "longitude": 120.1314
+      }
+    ]
+  },
+  {
+    "id": "route_photo",
+    "title": "摄影线（西湖日出+九溪+钱塘江夜景）",
+    "summary": "清晨拍西湖日出，白天徒步九溪烟树，夜晚到城市阳台拍灯光秀。",
+    "default_start": "05:30",
+    "preference": ["摄影", "拍照", "日出", "夜景", "打卡"],
+    "stops": [
+      {
+        "name": "西湖苏堤日出",
+        "scenic_area": "west_lake",
+        "offset_minutes": 0,
+        "duration_minutes": 60,
+        "description": "在苏堤或白堤拍摄日出和雷峰塔剪影。",
+        "tips": "提前查日出时间，清晨人少。",
+        "latitude": 30.2443,
+        "longitude": 120.1332
+      },
+      {
+        "name": "九溪烟树",
+        "scenic_area": "jiuxi",
+        "offset_minutes": 90,
+        "duration_minutes": 150,
+        "description": "沿溪徒步，雨后可拍到烟树云雾效果。",
+        "tips": "穿防滑鞋，夏季注意蚊虫。",
+        "latitude": 30.188,
+        "longitude": 120.118
+      },
+      {
+        "name": "钱塘江城市阳台夜景",
+        "scenic_area": "qiantang",
+        "offset_minutes": 280,
+        "duration_minutes": 90,
+        "description": "拍摄钱江新城灯光秀与江景倒影。",
+        "tips": "灯光秀时间以官方公告为准。",
+        "latitude": 30.239,
+        "longitude": 120.201
+      }
+    ]
+  },
+  {
+    "id": "route_culture",
+    "title": "文化古迹线（良渚+岳王庙+运河）",
+    "summary": "从五千年前的良渚文明到南宋岳飞故事，再到千年运河夜游，一路看杭州的历史脉络。",
+    "default_start": "09:00",
+    "preference": ["文化", "古迹", "历史", "博物馆"],
+    "stops": [
+      {
+        "name": "良渚古城遗址公园",
+        "scenic_area": "liangzhu",
+        "offset_minutes": 0,
+        "duration_minutes": 180,
+        "description": "参观城墙、河道与反山王陵，感受良渚文明。",
+        "tips": "周一闭园，需预约。",
+        "latitude": 30.3946,
+        "longitude": 119.987
+      },
+      {
+        "name": "岳王庙",
+        "scenic_area": "yuewang",
+        "offset_minutes": 210,
+        "duration_minutes": 60,
+        "description": "瞻仰岳飞像和“精忠报国”匾额。",
+        "tips": "门票 25 元。",
+        "latitude": 30.2504,
+        "longitude": 120.1345
+      },
+      {
+        "name": "运河拱宸桥夜游",
+        "scenic_area": "canal",
+        "offset_minutes": 300,
+        "duration_minutes": 120,
+        "description": "逛桥西历史街区后乘夜游船看运河灯光。",
+        "tips": "夜游船约 60 元。",
+        "latitude": 30.3186,
+        "longitude": 120.1456
+      }
+    ]
+  },
+  {
+    "id": "route_night",
+    "title": "夜游线（西湖+运河+城市阳台）",
+    "summary": "傍晚西湖湖滨漫步，晚上运河夜游，最后到城市阳台看灯光秀。",
+    "default_start": "17:00",
+    "preference": ["夜游", "夜景", "晚上", "灯光"],
+    "stops": [
+      {
+        "name": "西湖湖滨漫步",
+        "scenic_area": "west_lake",
+        "offset_minutes": 0,
+        "duration_minutes": 60,
+        "description": "从湖滨步行街沿湖散步，看晚霞和湖面灯光。",
+        "tips": "免费开放。",
+        "latitude": 30.2508,
+        "longitude": 120.1563
+      },
+      {
+        "name": "运河夜游船",
+        "scenic_area": "canal",
+        "offset_minutes": 80,
+        "duration_minutes": 90,
+        "description": "乘夜游船从武林门或拱宸桥出发，看运河夜景。",
+        "tips": "票价约 60 元，注意航次时间。",
+        "latitude": 30.3186,
+        "longitude": 120.1456
+      },
+      {
+        "name": "钱塘江城市阳台灯光秀",
+        "scenic_area": "qiantang",
+        "offset_minutes": 200,
+        "duration_minutes": 90,
+        "description": "在钱江新城城市阳台看灯光秀和江景。",
+        "tips": "灯光秀时间以官方公告为准。",
+        "latitude": 30.239,
+        "longitude": 120.201
+      }
+    ]
+  },
+  {
+    "id": "route_longjing",
+    "title": "龙井茶文化休闲线（龙井村+九溪）",
+    "summary": "上午到龙井村品茶看炒茶，下午沿九溪十八涧徒步，体验杭州茶山与溪谷。",
+    "default_start": "09:30",
+    "preference": ["龙井", "茶", "休闲", "徒步", "自然"],
+    "stops": [
+      {
+        "name": "龙井村",
+        "scenic_area": "longjing",
+        "offset_minutes": 0,
+        "duration_minutes": 120,
+        "description": "参观茶园和村内茶馆，体验龙井问茶。",
+        "tips": "品茶购茶按商家报价。",
+        "latitude": 30.2064,
+        "longitude": 120.1121
+      },
+      {
+        "name": "九溪烟树",
+        "scenic_area": "jiuxi",
+        "offset_minutes": 150,
+        "duration_minutes": 150,
+        "description": "从龙井村步行进入九溪十八涧，沿溪水下山。",
+        "tips": "石板路湿滑，建议穿防滑鞋。",
+        "latitude": 30.188,
+        "longitude": 120.118
+      }
+    ]
+  },
+  {
+    "id": "route_three_day",
+    "title": "杭州三日深度游（西湖+灵隐+西溪+良渚+宋城+运河）",
+    "summary": "三天覆盖杭州最核心的六大目的地：西湖环湖、灵隐祈福、西溪湿地、良渚文明、宋城演艺和运河夜游。",
+    "default_start": "09:00",
+    "preference": ["三日", "三天", "深度", "多日"],
+    "stops": [
+      {
+        "name": "西湖环湖",
+        "scenic_area": "west_lake",
+        "offset_minutes": 0,
+        "duration_minutes": 240,
+        "description": "第一天沿断桥、白堤、苏堤环湖游览，乘船登三潭印月。",
+        "tips": "环湖免费，游船 55 元。",
+        "latitude": 30.246,
+        "longitude": 120.149
+      },
+      {
+        "name": "灵隐寺",
+        "scenic_area": "lingyin",
+        "offset_minutes": 260,
+        "duration_minutes": 150,
+        "description": "第一天下午游览飞来峰与灵隐寺。",
+        "tips": "门票 75 元。",
+        "latitude": 30.2416,
+        "longitude": 120.1016
+      },
+      {
+        "name": "西溪湿地",
+        "scenic_area": "xixi",
+        "offset_minutes": 440,
+        "duration_minutes": 180,
+        "description": "第二天上午乘电瓶船游览西溪湿地。",
+        "tips": "门票 80 元。",
+        "latitude": 30.2704,
+        "longitude": 120.0643
+      },
+      {
+        "name": "良渚古城遗址",
+        "scenic_area": "liangzhu",
+        "offset_minutes": 650,
+        "duration_minutes": 180,
+        "description": "第二天下午参观良渚古城遗址公园。",
+        "tips": "需预约，门票 60 元。",
+        "latitude": 30.3946,
+        "longitude": 119.987
+      },
+      {
+        "name": "宋城·千古情",
+        "scenic_area": "songcheng",
+        "offset_minutes": 860,
+        "duration_minutes": 240,
+        "description": "第三天白天逛宋城，下午观看《宋城千古情》。",
+        "tips": "门票 320 元起。",
+        "latitude": 30.1517,
+        "longitude": 120.1314
+      },
+      {
+        "name": "运河夜游",
+        "scenic_area": "canal",
+        "offset_minutes": 1130,
+        "duration_minutes": 120,
+        "description": "第三天晚上乘运河夜游船结束行程。",
+        "tips": "夜游船约 60 元。",
+        "latitude": 30.3186,
+        "longitude": 120.1456
+      }
+    ]
+  }
+]
